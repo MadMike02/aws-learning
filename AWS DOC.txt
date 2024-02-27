@@ -1,0 +1,21 @@
+#AWS CLI
+- download -- https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- aws --version
+- aws configure
+	- create access keys in aws account and setup cli
+## s3
+- aws s3 ls -- list all buckets
+- aws s3 ls s3://mybucketcli980 --- list bucket contents
+- aws s3 mb s3://mybucketcli980 -- create bucket
+- aws s3 rb s3://mybucketcli980 --- remove bucket
+- aws s3 rm s3://mybucketcli980/index.html --- remove one file from bucket
+- aws s3 sync . s3://mybucketcli546 -- upload files
+- aws s3 rb s3://mybucketcli980 --force --- delete bucket with empty record
+
+# IAM
+- Principal -- user sens request to principal for a service
+- Request
+- AU - authentication -- user is checked he is valid or not
+- AZ - authorization -- user is given access
+- action - checks user is able to perform actions on given access or not
+- MFA - multifactor authorization 

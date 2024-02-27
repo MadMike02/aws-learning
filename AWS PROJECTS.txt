@@ -1,0 +1,27 @@
+1) Architecture project
+	Make project of architectures of applications that can scale, reliable using different AWS services linked together.
+- What you designed?
+- Why you used these services?
+- How they work together?
+
+skills - AWS architecture, Networking.
+
+2) Text to speech
+- using lambda, and polly (text to speach)
+
+3) Email with lambda
+ Mass emails send to users.
+- services - lambda, SES, SNS(notification service), S3
+
+4) CICD pipeline
+skills - Github actions, connect to amazon
+
+5) Alexa Copy
+- lamda, ASK (Alexa skills kit)
+- Volumne enabled apps
+
+6) Content recommendation service.
+services - Sage maker, MLS
+
+7) Documents conversion
+ lambda (use third party APIs etc)
